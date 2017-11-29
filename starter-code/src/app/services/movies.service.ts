@@ -17,3 +17,5 @@ export class MoviesService {
     return this.movies[id-1];
     }
 }
+
+export class AppModule { }

@@ -34,7 +34,8 @@ const movieList: Array<Object> = [
     hours: [
       'Monday 20:00, 22:00',
       'Tuesday 21:00, 23:00'
-    ]
+    ],
+    room: 1
   }, {
     id: 2,
     title: "The Godfather",
@@ -56,7 +57,8 @@ const movieList: Array<Object> = [
     hours: [
       'Monday 20:00, 22:00',
       'Tuesday 21:00, 23:00'
-    ]
+    ],
+    room: 2
   }, {
     id: 3,
     title: "The Godfather Part II",
@@ -78,7 +80,8 @@ const movieList: Array<Object> = [
     hours: [
       'Monday 20:00, 22:00',
       'Tuesday 21:00, 23:00'
-    ]
+    ],
+    room: 3
   }, {
     id: 4,
     title: "The Dark Knight",
@@ -100,7 +103,8 @@ const movieList: Array<Object> = [
     hours: [
       'Monday 20:00, 22:00',
       'Tuesday 21:00, 23:00'
-    ]
+    ],
+    room: 4
   }, {
 
     id: 5,
@@ -123,7 +127,8 @@ const movieList: Array<Object> = [
     hours: [
       'Monday 20:00, 22:00',
       'Tuesday 21:00, 23:00'
-    ]
+    ],
+    room: 5
   }
 ]
 
