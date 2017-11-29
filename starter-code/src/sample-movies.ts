@@ -1,5 +1,18 @@
 
- [
+interface MovieInterface{
+  id: Number,
+  title: String,
+  poster: String,
+  synopsis: String,
+  genres: Array<String>,
+  year: Number,
+  director: String,
+  actors: Array<String>,
+  hours: Array<String>,
+  room: Number,
+}
+
+const movieList: Array<Object> = [
   {
     id: 1,
     title: "The Shawshank Redemption",
@@ -17,6 +30,10 @@
       "William Sadler",
       "Clancy Brown",
       "Gil Bellows"
+    ],
+    hours: [
+      'Monday 20:00, 22:00',
+      'Tuesday 21:00, 23:00'
     ]
   }, {
     id: 2,
@@ -35,6 +52,10 @@
       "Richard S. Castellano",
       "Robert Duvall",
       "Sterling Hayden"
+    ],
+    hours: [
+      'Monday 20:00, 22:00',
+      'Tuesday 21:00, 23:00'
     ]
   }, {
     id: 3,
@@ -53,6 +74,10 @@
       "Robert De Niro",
       "John Cazale",
       "Talia Shire"
+    ],
+    hours: [
+      'Monday 20:00, 22:00',
+      'Tuesday 21:00, 23:00'
     ]
   }, {
     id: 4,
@@ -71,9 +96,13 @@
       "Michael Caine",
       "Maggie Gyllenhaal",
       "Gary Oldman"
+    ],
+    hours: [
+      'Monday 20:00, 22:00',
+      'Tuesday 21:00, 23:00'
     ]
   }, {
-  {
+
     id: 5,
     title: "Schindler's List",
     poster: "https://i.imgur.com/IWZJOmu.jpg",
@@ -90,6 +119,12 @@
       "Caroline Goodall",
       "Jonathan Sagall",
       "Embeth Davidtz"
+    ],
+    hours: [
+      'Monday 20:00, 22:00',
+      'Tuesday 21:00, 23:00'
     ]
   }
 ]
+
+export default movieList;
